@@ -14,15 +14,15 @@ public class Test {
             Sach s = new Sach();
             System.out.println("\nNhập sách thứ " + (i + 1) + ":");
             System.out.print("Mã sách: ");
-            s.maSach = sc.nextLine();
+            s.setMaSach(sc.nextLine());
             System.out.print("Tiêu đề: ");
-            s.tieuDe = sc.nextLine();
+            s.setTieuDe(sc.nextLine());
             System.out.print("Tác giả: ");
-            s.tacGia = sc.nextLine();
+            s.setTacGia(sc.nextLine());
             System.out.print("Năm xuất bản: ");
-            s.namXuatBan = sc.nextInt();
+            s.setNamXuatBan(sc.nextInt());
             System.out.print("Số lượng: ");
-            s.soLuong = sc.nextInt();
+            s.setSoLuong(sc.nextInt());
             sc.nextLine();
 
             danhSachSach.add(s);
